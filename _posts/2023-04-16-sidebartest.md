@@ -8,7 +8,7 @@ tags: [blog, jekyll]
 
 author_profile: true
 sidebar:
-  nav: "docs"
+  nav: "sidebar-category"
 
 # toc: true
 # toc_label: "목록"
