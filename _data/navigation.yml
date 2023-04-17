@@ -61,3 +61,13 @@ sidebar-category:
       - title: "Markdown"
         url: markdown/
         category: "markdown"
+
+
+lang: de
+permalink: ../_post/
+
+lang: en
+permalink: ../_post/
+
+lang: ko
+permalink: ../_post/
