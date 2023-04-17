@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Algorithmen und Programmiersprachen"
+title: "Sortierverfahren"
 folder: "intropro"
 categories:
   - intropro
@@ -17,5 +17,5 @@ sidebar:
 # toc_sticky: true
 classes: wide
 
-date: 2023-04-17
+date: 2023-04-18
 ---
