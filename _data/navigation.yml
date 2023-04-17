@@ -58,3 +58,6 @@ sidebar-category:
       - title: "Jekyll"
         url: jekyll/
         category: "jekyll"
+      - title: "Markdown"
+        url: markdown/
+        category: "markdown"
