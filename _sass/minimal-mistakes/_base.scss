@@ -64,7 +64,7 @@ small,
 }
 
 p {
-  margin-bottom: 1.3em;
+  margin-bottom: 0.3em;
 }
 
 u,
@@ -126,6 +126,7 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
