@@ -39,12 +39,12 @@ sidebar-category:
       - title: "VHDL"
         url: vhdl/
         category: "vhdl"
-      - title: "Html"
-        url: html/
-        category: "html"
-      - title: "Css"
-        url: css/
-        category: "css"
+      - title: "Html&Css"
+        url: html&css/
+        category: "html&css"
+      - title: "JavaScript"
+        url: javascript/
+        category: "javascript"
   - title: Studium
     children:
       - title: "IntroPro"
