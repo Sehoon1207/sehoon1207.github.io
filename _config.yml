@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "custom" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "custom2" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
@@ -102,8 +102,8 @@ analytics:
 author:
   name: "Sehoon Oh"
   avatar: "/assets/images/profilephoto.jpg" # path of avatar image, e.g.
-  bio: "This is a personal space for organizing data. 
-        If you have any questions about me, please contact me below."
+  bio: "This is a personal space for organizing data.
+    If you have any questions about me, please contact me below."
   location: "berlin, Deutschland"
   email: #"is.sehoon@gmail.com"
   links:
@@ -112,7 +112,7 @@ author:
       url: "mailto:is.sehoon@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://https://sehoon1207.github.io/Project/"
+      url: "https://sehoon1207.github.io/Project/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -205,6 +205,9 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 # Sass/SCSS
 sass:
@@ -290,7 +293,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-
 #Polyglot setting (Polyglot을 이용해서 다국어 지원)
 # languages: ["ko", "en", "de"] # 지원하고자 하는 언어
 # default_lang: "ko" # 컨텐츠의 기본 언어
