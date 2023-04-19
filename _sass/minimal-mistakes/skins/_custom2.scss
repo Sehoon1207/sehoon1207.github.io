@@ -23,7 +23,7 @@ $danger-color: #c0392b !default;
 $info-color: #393e46 !default; //#393e46
 
 /* links */
-$link-color: $info-color !default;
+$link-color: #384c6b !default; //$info-color
 $link-color-hover: mix(#000, #eb6363, 25%) !default;
 $link-color-visited: mix(#fff, $link-color, 25%) !default;
 $masthead-link-color: $primary-color !default;

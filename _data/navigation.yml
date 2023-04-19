@@ -61,6 +61,9 @@ sidebar-category:
       - title: "Markdown"
         url: markdown/
         category: "markdown"
+      - title: "etc"
+        url: etc/
+        category: "etc"
 
 
 lang: de
