@@ -10,7 +10,7 @@ $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
 $body-color: #fff !default;
-$background-color: #eeeeee !default;
+$background-color: #eeeeee !default; //#eeeeee
 $code-background-color: #eb63635b !default; //$lighter-gray
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
@@ -30,7 +30,7 @@ $masthead-link-color: $primary-color !default;
 $masthead-link-color-hover: mix(#000, #eb6363, 25%) !default;
 
 /* notices */
-$notice-background-mix: 90% !default;
+$notice-background-mix: 90% !default; //90%
 $code-notice-background-mix: 95% !default;
 
 // --pointcolor: #eb6363;
