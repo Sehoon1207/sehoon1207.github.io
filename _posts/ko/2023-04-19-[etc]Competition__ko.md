@@ -23,7 +23,7 @@ lang-ref: multilingual
 date: 2023-04-20
 ---
 
-## Programming field
+# Programming field
 
 **Hackathons**: Hackathons는 IT 분야에서 참가자들이 함께 문제를 해결하는 대회로, 독일의 프로그래머들이 매우 활발하게 참여하는 대회 중 하나이다. 많은 기업들이 Hackathons를 주최하여, 참가자들은 새로운 아이디어와 기술을 공유하며 협업할 수 있다.
 
@@ -31,7 +31,7 @@ date: 2023-04-20
 
 ---
 
-### LV 1. 대학생 레벨에 괜찮은
+## LV 1. 대학생 레벨에 괜찮은
 
 **AngelHack (<https://angelhack.com/>):**  
 AngelHack는 해커톤과 다양한 기술 행사를 주최하는 국제적인 커뮤니티이다. AngelHack 웹사이트에서는 개발자들이 참여할 수 있는 해커톤 정보와, AngelHack에서 주최하는 해커톤 정보를 확인할 수 있다.
@@ -39,7 +39,7 @@ AngelHack는 해커톤과 다양한 기술 행사를 주최하는 국제적인 �
 **MLH (<https://mlh.io/>):**  
 MLH (Major League Hacking)는 대학생 개발자들을 위한 대규모 해커톤 행사를 주최하는 국제적인 단체다. MLH는 전 세계적으로 수많은 대학생 개발자들이 참여하는 해커톤 행사를 진행하며, MLH 웹사이트에서 이러한 행사 정보를 확인할 수 있다.
 
-### LV 2. 확인이 필요하지만 중간레벨정도?
+## LV 2. 확인이 필요하지만 중간레벨정도?
 
 **Devpost (<https://devpost.com/>):**  
 대회 정보와 신청, 그리고 대회 결과와 수상작 등을 확인할 수 있는 웹사이트이다. Devpost는 대회 주최사와 함께 이벤트를 진행하며, 대회의 세부 사항과 참가 신청 등을 직접 확인할 수 있다.
@@ -47,7 +47,7 @@ MLH (Major League Hacking)는 대학생 개발자들을 위한 대규모 해커�
 **ChallengePost (<https://www.challengepost.com/>):**  
 Hackathons, 챌린지 및 다른 경쟁에 관련된 이벤트 정보를 제공한다. 대회 일정, 상금, 주최 측 등을 확인할 수 있으며, 대회에 참가하는 개발자들이 어떤 프로젝트를 개발하는지도 확인할 수 있다.
 
-### LV 3. 난이도가 좀 높은
+## LV 3. 난이도가 좀 높은
 
 **HackerEarth (<https://www.hackerearth.com/>):**  
 전 세계적으로 대회 및 챌린지 정보를 제공하는 웹사이트이다. 특정 테크놀로지, 주제, 기업, 지역 등으로 대회를 검색하고, 대회 일정, 신청 방법, 수상작 등을 확인할 수 있다.
@@ -64,9 +64,9 @@ Kaggle은 데이터 사이언스 및 머신 러닝 분야에서 대회 및 공�
 **Cyber Security Challenge Germany**: 사이버 보안 분야에서 참가자들이 경쟁하는 대회  
 **Code+Design Camp**: 코딩 및 디자인 분야에서의 체험 캠프 및 해커톤 대회
 
-## intelligent architecture field
+# intelligent architecture field
 
-### LV 1. 대학생 레벨에 괜찮은
+## LV 1. 대학생 레벨에 괜찮은
 
 **Solar Decathlon Europe**: 유럽에서 개최되는 에너지 자급 자족 주택 설계 대학생 대회입니다. 참가자들은 지속 가능한 에너지 및 자원 관리에 초점을 맞추어 에너지 자급 자족 주택을 설계하고 경쟁합니다.
 
@@ -76,7 +76,7 @@ Kaggle은 데이터 사이언스 및 머신 러닝 분야에서 대회 및 공�
 
 **Bundesstiftung Baukultur**: 독일 건축문화재단에서는 건축 분야의 문제를 해결하는 창의적인 솔루션을 제안하는 공모전을 개최합니다. 대학생들도 참여할 수 있으며, 참가자들은 상금과 인식도를 얻을 수 있습니다.
 
-### 그 외
+## 그 외
 
 **Solar Decathlon**: 태양열 에너지를 이용한 건축물 설계 및 제작 대회  
 **Smart City Challenge**: 스마트 시티 관련 기술 및 비즈니스 모델을 발전시키는 대회  
