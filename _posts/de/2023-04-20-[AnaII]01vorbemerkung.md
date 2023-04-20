@@ -11,10 +11,10 @@ author_profile: true
 sidebar:
   nav: "sidebar-category"
 
-toc: true
-toc_label: "목록"
-toc_icon: "bars"
-toc_sticky: true
+# toc: true
+# toc_label: "목록"
+# toc_icon: "bars"
+# toc_sticky: true
 classes: wide
 
 lang: de
@@ -47,6 +47,9 @@ $
 7
 \end{array}\right]
 $
+
+수학은... 기호나 문자쓰는게 너무 힘드니.. 쉬운 방법이 생기면 정리하는 것이 정신건강에 좋을 것같다.
+{: .notice--warning}
 
 ---
 

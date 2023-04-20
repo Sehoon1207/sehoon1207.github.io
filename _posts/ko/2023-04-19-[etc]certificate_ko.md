@@ -10,6 +10,7 @@ tags: [blog, etc, cert]
 author_profile: true
 sidebar:
   nav: "sidebar-category"
+  # nav: "counts"
 
 toc: true
 toc_label: "목록"

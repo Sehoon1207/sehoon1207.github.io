@@ -1,11 +1,11 @@
 ---
 layout: single
 title: "포스트 제목 밑줄 제거하기"
-folder: "ekyll"
+folder: "jekyll"
 categories:
-  - ekyll
+  - jekyll
 
-tags: [blog, ekyll, minimal-mistakes]
+tags: [blog, jekyll, minimal-mistakes]
 
 author_profile: true
 sidebar:

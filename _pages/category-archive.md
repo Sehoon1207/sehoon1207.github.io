@@ -1,11 +1,12 @@
 ---
-layout: archive
-permalink: /categories/
 title: "Posts by Category"
+layout: categories
+permalink: /categories/
 author_profile: true
+sidebar_main: true
 ---
 
-{% include group-by-array collection=site.posts field="categories" %}
+<!-- {% include group-by-array collection=site.posts field="categories" %}
 {% for category in group_names %}
 {% assign posts = group_items[forloop.index0] %}
 
@@ -13,4 +14,4 @@ author_profile: true
   {% for post in posts %}
     {% include archive-single.html %}
   {% endfor %}
-{% endfor %}
+{% endfor %} -->

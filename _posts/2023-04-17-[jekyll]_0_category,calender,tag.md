@@ -1,11 +1,11 @@
 ---
 layout: single
 title: "포스트 제목 밑에 카테고리, 게시날짜, 태그 추가하기"
-folder: "ekyll"
+folder: "jekyll"
 categories:
-  - ekyll
+  - jekyll
 
-tags: [blog, ekyll, minimal-mistakes]
+tags: [blog, jekyll, minimal-mistakes]
 
 author_profile: true
 sidebar:
@@ -26,15 +26,15 @@ date: 2023-04-17
 
 ### 1. archive-single.html 파일 수정하기
 
- `/_includes/archive-single.html`
+`/_includes/archive-single.html`
 
 minimal-mistake를 사용시 위의 경로로 가면 해당 파일이 존재한다.
 열어보면 아래와 같은 코드가 보인다.
 
-````scss
+```scss
 {% raw %}    <h2 class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> 
+        <a href="{{ post.link }}">{{ title }}</a>
         <a href="{{ post.url | relative_url }}" rel="permalink">
         <i class="fas fa-link" aria-hidden="true" title="permalink"></i>
         <span class="sr-only">Permalink</span></a>
@@ -49,19 +49,19 @@ minimal-mistake를 사용시 위의 경로로 가면 해당 파일이 존재한�
         {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
         </p>
     {% endif %}    {% endraw %}
-````
+```
 
 중간에 주석이 있는 부분에 아래의 코드를 붙여 넣으면 끝.
 
 ```scss
     {% raw %}// 달력과 카테고리 추가
     {% if post.categories[0] != null %}
-		<p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> 
-        {{ post.date | date: "%m/%d/%Y" }} 
-        &nbsp; <i class="far fa-folder-open"></i> 
+		<p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i>
+        {{ post.date | date: "%m/%d/%Y" }}
+        &nbsp; <i class="far fa-folder-open"></i>
         {{ post.categories }}</p>
 	{% else %}
-		<p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> 
+		<p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i>
         {{ post.date | date: "%m/%d/%Y" }}</p>
 	{% endif %}
     // 태그추가
@@ -72,11 +72,10 @@ minimal-mistake를 사용시 위의 경로로 가면 해당 파일이 존재한�
 
 수정 후의 모습은 아래와 같다.
 
-
-````scss
+```scss
 {% raw %}    <h2 class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> 
+        <a href="{{ post.link }}">{{ title }}</a>
         <a href="{{ post.url | relative_url }}" rel="permalink">
         <i class="fas fa-link" aria-hidden="true" title="permalink"></i>
         <span class="sr-only">Permalink</span></a>
@@ -87,12 +86,12 @@ minimal-mistake를 사용시 위의 경로로 가면 해당 파일이 존재한�
 
     // 달력과 카테고리 추가
     {% if post.categories[0] != null %}
-		<p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> 
-        {{ post.date | date: "%m/%d/%Y" }} 
-        &nbsp; <i class="far fa-folder-open"></i> 
+		<p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i>
+        {{ post.date | date: "%m/%d/%Y" }}
+        &nbsp; <i class="far fa-folder-open"></i>
         {{ post.categories }}</p>
 	{% else %}
-		<p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> 
+		<p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i>
         {{ post.date | date: "%m/%d/%Y" }}</p>
 	{% endif %}
     // 태그추가
@@ -107,4 +106,4 @@ minimal-mistake를 사용시 위의 경로로 가면 해당 파일이 존재한�
         {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
         </p>
     {% endif %}    {% endraw %}
-````
+```

@@ -70,13 +70,9 @@ sidebar-category:
       # - title: "Ana"
       #   url: etc/
       #   category: "etc"
+counts:
+  - title: "카테고리"
+    use: true
+  - title: "태그"
+    use: true
 
-
-lang: de
-permalink: ../_post/
-
-lang: en
-permalink: ../_post/
-
-lang: ko
-permalink: ../_post/
