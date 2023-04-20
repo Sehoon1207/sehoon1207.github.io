@@ -72,7 +72,7 @@ sidebar-category:
       #   category: "etc"
 counts:
   - title: "카테고리"
-    use: true
+    use: false
   - title: "태그"
     use: true
 
