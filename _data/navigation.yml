@@ -53,6 +53,9 @@ sidebar-category:
       - title: "Signale und Systeme"
         url: sus/
         category: "sus"
+      - title: "Analysis II"
+        url: anaII/
+        category: "anaII"
   - title: Etc
     children:
       - title: "Jekyll"
@@ -64,6 +67,9 @@ sidebar-category:
       - title: "etc"
         url: etc/
         category: "etc"
+      # - title: "Ana"
+      #   url: etc/
+      #   category: "etc"
 
 
 lang: de
