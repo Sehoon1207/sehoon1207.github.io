@@ -23,7 +23,7 @@ lang-ref: multilingual
 date: 2023-04-20
 ---
 
-# Programming field
+## Programming field
 
 **Hackathons**: Hackathons는 IT 분야에서 참가자들이 함께 문제를 해결하는 대회로, 독일의 프로그래머들이 매우 활발하게 참여하는 대회 중 하나이다. 많은 기업들이 Hackathons를 주최하여, 참가자들은 새로운 아이디어와 기술을 공유하며 협업할 수 있다.
 
@@ -64,7 +64,7 @@ Kaggle은 데이터 사이언스 및 머신 러닝 분야에서 대회 및 공�
 **Cyber Security Challenge Germany**: 사이버 보안 분야에서 참가자들이 경쟁하는 대회  
 **Code+Design Camp**: 코딩 및 디자인 분야에서의 체험 캠프 및 해커톤 대회
 
-# intelligent architecture field
+## intelligent architecture field
 
 ### LV 1. 대학생 레벨에 괜찮은
 
