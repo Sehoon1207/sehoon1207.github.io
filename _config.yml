@@ -112,7 +112,7 @@ author:
       url: "mailto:is.sehoon@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://sehoon1207.github.io/Project/"
+      # url: "https://sehoon1207.github.io/Project/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
