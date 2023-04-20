@@ -25,7 +25,7 @@ date: 2023-04-20
 
 # programming
 
-### LV 1. 대학생 레벨에 괜찮은
+## LV 1. 대학생 레벨에 괜찮은
 
 **ISTQB Certified Tester Foundation Level:**
 ISTQB 인증 소프트웨어 테스터 자격증으로, 소프트웨어 테스팅 기본 원리와 방법론을 이해하고 테스트를 수행할 수 있는 능력을 인증.
@@ -66,7 +66,7 @@ Google Certified Professional Cloud Architect:
 **Cisco Certified Network Associate (CCNA):**  
 CCNA는 시스코의 네트워크 전문가 자격증으로, 네트워크 디바이스(라우터, 스위치, 라우팅 및 스위칭 프로토콜 등)를 설치, 구성, 유지보수할 수 있는 기본적인 능력을 인증하는 자격증입니다. CCNA는 네트워크 관리자로서의 역할을 수행하고자 하는 분들이 준비할 수 있으며, `네트워크 분야에서 입문자로서 시작하기에 좋은 자격증`.
 
-#### back-end
+## back-end
 
 AWS Certified DevOps Engineer - Professional:  
 아마존 웹 서비스에서 개발 및 운영을 위한 전문가 자격증으로, AWS 클라우드 기반으로 개발, 배포, 운영, 유지보수 등의 작업을 수행할 수 있는 능력을 인증합니다.
@@ -98,7 +98,7 @@ Sun Certified Enterprise Architect (SCEA):
 LPIC-1:  
 LPIC-1은 리눅스 프로페셔널 인스티튜트(LPI)에서 발행하는 리눅스 자격증으로, 리눅스 운영 체제에서의 기본적인 시스템 관리 능력을 인증하는 자격증입니다. 이 자격증은 리눅스 시스템 관리자로서의 역할을 수행하고자 하는 분들이 준비할 수 있으며, 리눅스 시스템을 설치, 구성, 운영, 유지보수할 수 있는 능력을 인증합니다. 이 자격증은 리눅스 기반 시스템을 다루는 분야에서 일할 때 매우 유용하며, LPIC-1을 보유하고 있다는 것은 리눅스 시스템 관리 능력이 검증되었다는 것을 의미합니다.
 
-### intelligent architecture
+# intelligent architecture
 
 LEED AP: 지속가능한 건축물 인증 시스템의 전문가 자격증  
 CEM: 인증 에너지 관리사 자격증  
