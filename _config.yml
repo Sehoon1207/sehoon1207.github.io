@@ -16,18 +16,18 @@ minimal_mistakes_skin: "custom2" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "IS"
-title_separator: "-"
+title: "Hoon's Note"
+title_separator: "|"
 subtitle: "programming blog v1.0" # site tagline that appears below site title in masthead
-name: "Sehoon Oh(오세훈)"
-description: "study"
+name: "Hoon"
+description: "Hoon's study note"
 url: "https://sehoon1207.github.io" # the base hostname & protocol for your site e.g.
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "https://github.com/Sehoon1207/sehoon1207.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: /assets/images/1.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: /assets/images/logo88x88.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            : true # true, false (default)
 words_per_minute: 200
 comments:
   provider: "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -100,7 +100,7 @@ analytics:
 
 # Site Author
 author:
-  name: "Sehoon Oh"
+  name: "Hoon's Note"
   avatar: "/assets/images/profilephoto.jpg" # path of avatar image, e.g.
   bio: "This is a personal space for organizing data.
     If you have any questions about me, please contact me below."
@@ -121,7 +121,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/sehoon1207"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/sehoon1207"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -285,6 +285,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
 
   # _pages                      : 해당 하단 영역이 새로 추가
   - scope:
@@ -293,6 +294,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+date_format: "%Y-%m-%d"
+
 #Polyglot setting (Polyglot을 이용해서 다국어 지원)
 # languages: ["ko", "en", "de"] # 지원하고자 하는 언어
 # default_lang: "ko" # 컨텐츠의 기본 언어
