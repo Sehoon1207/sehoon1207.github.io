@@ -18,6 +18,7 @@ toc_sticky: true
 classes: wide
 
 use_math: true
+typora-root-url: ../
 
 date: 2023-04-20
 ---
