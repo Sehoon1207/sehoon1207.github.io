@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "포스트 제목 밑에 카테고리, 게시날짜, 태그 추가하기"
+title: "[jekyll] 포스트 제목 밑에 카테고리, 게시날짜, 태그 추가하기"
 folder: "jekyll"
 categories:
   - jekyll
@@ -16,6 +16,9 @@ sidebar:
 # toc_icon: "bars"
 # toc_sticky: true
 classes: wide
+
+use_math: true
+typora-root-url: ../
 
 date: 2023-04-17
 ---
