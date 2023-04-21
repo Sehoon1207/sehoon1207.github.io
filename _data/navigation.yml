@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Home"
-    url: /
+  # - title: "Home"
+  #   url: /
   - title: "Projects"
     url: "/projects/"
   - title: "Experience"
@@ -16,10 +16,10 @@ main:
     url: "/inspection"
   - title: "NextStep"
     url: "/nextStep"
-  - title: "Category"
-    url: "/categories"
-  - title: "Tag"
-    url: "/tags"
+  # - title: "Category"
+  #   url: "/categories"
+  # - title: "Tag"
+  #   url: "/tags"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -66,6 +66,15 @@ sidebar-category:
       - title: "etc"
         url: etc/
         category: "etc"
+  - title: Search
+    children:
+      - title: "Search"
+        url: search/
+      - title: "Category"
+        url: categories/
+      - title: "Tag"
+        url: tags/
+        
 
 
 

@@ -1,11 +1,10 @@
 ---
-title: "Posts by Category"
-layout: categories
-permalink: /categories/
+title: "Search"
+layout: search
+permalink: /search/
 author_profile: true
 sidebar_main: true
+
 sidebar:
   nav: "sidebar-category"
 ---
-
-
