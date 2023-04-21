@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "[AnaII] 01 Vorbemerkung"
-folder: "anaII"
+title: "[Ana II] 01 Vorbemerkung"
+folder: "ana_2"
 categories:
-  - anaII
+  - ana_2
 
-tags: [blog, anaII]
+tags: [blog, ana_2]
 
 author_profile: true
 sidebar:

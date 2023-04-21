@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "Projects"
-    url: "/projects"
+    url: "/projects/"
   - title: "Experience"
     url: "/experience"
   - title: "Network"
@@ -33,28 +33,28 @@ sidebar-category:
   - title: Programming
     children:
       - title: "C"
-        url: c/
+        url: categories/c/
         category: "c"
       - title: "VHDL"
-        url: vhdl/
+        url: categories/vhdl/
         category: "vhdl"
       - title: "Html&Css"
-        url: html&css/
+        url: categories/html&css/
         category: "html&css"
       - title: "JavaScript"
-        url: javascript/
+        url: categories/javascript/
         category: "javascript"
   - title: Studium
     children:
       - title: "IntroPro"
-        url: intropro/
+        url: categories/intropro/
         category: "intropro"
       - title: "Signale und Systeme"
-        url: sus/
+        url: categories/sus/
         category: "sus"
       - title: "Analysis II"
-        url: anaII/
-        category: "anaII"
+        url: categories/ana_2/
+        category: "ana_2"
   - title: Etc
     children:
       - title: "Jekyll"
