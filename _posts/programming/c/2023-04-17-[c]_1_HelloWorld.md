@@ -16,6 +16,8 @@ sidebar:
 # toc_icon: "bars"
 # toc_sticky: true
 classes: wide
+# sidebar:
+#     nav: "counts"
 
 date: 2023-04-17
 ---
