@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "jekyll blog 폰트 크기 변경하기"
-folder: "ekyll"
+title: "[jekyll] blog 폰트 크기 변경하기"
+folder: "jekyll"
 categories:
-  - ekyll
+  - jekyll
 
-tags: [blog, ekyll, minimal-mistakes]
+tags: [blog, jekyll, minimal-mistakes]
 
 author_profile: true
 sidebar:
@@ -16,6 +16,9 @@ sidebar:
 # toc_icon: "bars"
 # toc_sticky: true
 classes: wide
+
+use_math: true
+typora-root-url: ../
 
 date: 2023-04-17
 ---
