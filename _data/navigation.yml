@@ -58,13 +58,13 @@ sidebar-category:
   - title: Etc
     children:
       - title: "Jekyll"
-        url: jekyll/
+        url: categories/jekyll/
         category: "jekyll"
       - title: "Markdown"
-        url: markdown/
+        url: categories/markdown/
         category: "markdown"
       - title: "etc"
-        url: etc/
+        url: categories/etc/
         category: "etc"
   - title: Search
     children:

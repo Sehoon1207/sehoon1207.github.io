@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 layout: archive
-permalink: /categories/ana_2
+# permalink: /categories/ana_2
 author_profile: true
 
 sidebar:

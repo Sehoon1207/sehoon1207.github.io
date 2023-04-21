@@ -73,3 +73,31 @@ Success
 
 Danger
 {: .notice--danger}
+
+
+`div`를 이용해서 공지부분을 설정할 수도 있다.
+
+
+\<input>
+
+```
+<div class="notice--success">
+<h3> 여기에 적으면 됩니다. </h3>
+<ul>
+  <li>리스트도 작정 가능합니다.</li>
+  <li>리스트도 작정 가능합니다.</li>
+  <li>리스트도 작정 가능합니다.</li>
+</ul>
+</div>
+```
+
+\<output>
+
+<div class="notice--success">
+<h3> 여기에 적으면 됩니다. </h3>
+<ul>
+  <li>리스트도 작정 가능합니다.</li>
+  <li>리스트도 작정 가능합니다.</li>
+  <li>리스트도 작정 가능합니다.</li>
+</ul>
+</div>
