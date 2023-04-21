@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "포스트 제목 밑줄 제거하기"
+title: "[jekyll] 포스트 제목 밑줄 제거하기"
 folder: "jekyll"
 categories:
   - jekyll
