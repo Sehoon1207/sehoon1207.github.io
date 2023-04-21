@@ -38,12 +38,6 @@ figure.highlight {
       color: $base04;
       border-right: 1px solid $base04;
       text-align: right;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
     }
 
     /* code */
@@ -324,8 +318,7 @@ figure.highlight {
 }
 
 .gist {
-  th,
-  td {
+  th, td {
     border-bottom: 0;
   }
 }
