@@ -449,6 +449,11 @@ $\overrightarrow{AB}$
 조건 분기를 만들고 싶다면 `\begin{cases}`, `\end{cases}` 사이에 &과 \\를 써 주면 된다.  
 &는 열을 구분하고 \\은 행을 구분한다.
 
+**수식을 latex로 변환시켜주는 사이트의 링크를 아래에 남겨둔다. 꽤 유용한듯!!**
+
+<https://editor.codecogs.com/>
+<http://www.hostmath.com/>
+
 ---
 
 참고
