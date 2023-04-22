@@ -35,6 +35,17 @@ date: 2023-04-21
 <https://fennecfox38.github.io/2021/06/29/VHDL-Environment-Setup.html>
 
 
+설치는 위 링크를 참고하고 실행방법만 여기에 기록해둔다.
+
+```
+$ ghdl -a design.vhd
+$ ghdl -a testbench.vhd
+$ ghdl -e TestBench
+$ ghdl -r TestBench --vcd==TestBench.vcd
+$ gtkwave TestBench.vcd
+```
+
+
 ---
 
 Quelle: TU-Berlin
