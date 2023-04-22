@@ -36,7 +36,7 @@ sidebar-category:
         url: categories/c/
         category: "c"
       - title: "VHDL"
-        url: _pages/categories/vhdl/
+        url: categories/vhdl/
         category: "vhdl"
       - title: "Html&Css"
         url: categories/html&css/

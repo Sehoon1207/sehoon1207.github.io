@@ -29,24 +29,20 @@ date: 2023-04-20
 
 **Situation :**
 
-bisher&nbsp;: $f:D \longmapsto \mathbb{R}, D \in \mathbb{R},$ &emsp;&emsp; $x,y = f(x) \in  \mathbb{R}$  
-jetzt&emsp;: $\vec{x} \in \mathbb{R}^{n}, \vec{y} \in \mathbb{R}^{m}, $&emsp;&emsp;&emsp;&emsp; $f:D\longmapsto\mathbb{R}^{m},D\subseteq\mathbb{R}^{n}$
+bisher&nbsp;: $$f:D \longmapsto \mathbb{R}, D \in \mathbb{R},$$ &emsp;&emsp; $$x,y = f(x) \in  \mathbb{R}$$  
+jetzt&emsp;: $$\vec{x} \in \mathbb{R}^{n}, \vec{y} \in \mathbb{R}^{m}, $$ &emsp;&emsp;&emsp;&emsp; $$f:D\longmapsto\mathbb{R}^{m},D\subseteq\mathbb{R}^{n}$$
 {: .notice--info}
 
 **Erinnerung :**
 
-1\. Vecktoren $\vec{x}\in\mathbb{R}^{n}$  
-$\vec{x}=$ $$\begin{bmatrix} x_1 \\ \vdots  \\ 0  \end{bmatrix}$$
+1\. Vecktoren $$\vec{x}\in\mathbb{R}^{n}$$  
+$$\vec{x}=$$ $$\begin{bmatrix} x_1 \\ \vdots  \\ 0  \end{bmatrix}$$
 $$\vec{x}=\begin{bmatrix} x_1 \\ \vdots  \\ 0  \end{bmatrix}$$
 {: .notice--info}
 
-$
-\left[\begin{array}{r}
-1\\
-4\\
-7
-\end{array}\right]
-$
+$$
+\left[\begin{array}{r} 1\\ 4\\ 7 \end{array}\right]
+$$
 
 수학은... 기호나 문자쓰는게 너무 힘드니.. 쉬운 방법이 생기면 정리하는 것이 정신건강에 좋을 것같다.
 {: .notice--warning}
