@@ -55,6 +55,9 @@ sidebar-category:
       - title: "Analysis II"
         url: categories/ana_2/
         category: "ana_2"
+      - title: "Elektrische Netzwerke"
+        url: categories/elnw/
+        category: "elnw"
   - title: Etc
     children:
       - title: "Jekyll"
