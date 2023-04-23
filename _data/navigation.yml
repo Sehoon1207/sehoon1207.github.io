@@ -55,9 +55,13 @@ sidebar-category:
       - title: "2023-s Systemprogrammierung"
         url: categories/syspro/
         category: "syspro"
+      - title: "2023-s Hardwarepraktikum"
+        url: categories/hwpti/
+        category: "hwpti"
       - title: "2023-s Analysis II"
         url: categories/ana_2/
         category: "ana_2"
+
       - title: "2022-w IntroPro"
         url: categories/intropro/
         category: "intropro"
