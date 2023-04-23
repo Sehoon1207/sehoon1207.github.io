@@ -3,9 +3,9 @@ layout: single
 title: "[AlgoDat]Java프로그래밍"
 folder: "AlgoDat"
 categories:
-  - AlgoDat
+  - algoDat
 
-tags: [blog, AlgoDat, java]
+tags: [blog, algoDat, java]
 
 author_profile: true
 sidebar:

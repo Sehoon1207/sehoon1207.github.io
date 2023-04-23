@@ -1,11 +1,11 @@
 ---
 layout: single
 title: "[AlgoDat]알고리즘과 데이터구조 기초"
-folder: "AlgoDat"
+folder: "algoDat"
 categories:
-  - AlgoDat
+  - algoDat
 
-tags: [blog, AlgoDat]
+tags: [blog, algoDat, java]
 
 author_profile: true
 sidebar:

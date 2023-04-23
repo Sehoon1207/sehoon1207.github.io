@@ -1,11 +1,11 @@
 ---
 layout: single
 title: "[AlgoDat]Grundlagen der Algorithmen und Datenstrukturen"
-folder: "AlgoDat"
+folder: "algoDat"
 categories:
-  - AlgoDat
+  - algoDat
 
-tags: [blog, AlgoDat]
+tags: [blog, algoDat, java]
 
 author_profile: true
 sidebar:

@@ -3,9 +3,9 @@ layout: single
 title: "[AlgoDat]die Unterschiede C – Java"
 folder: "AlgoDat"
 categories:
-  - AlgoDat
+  - algoDat
 
-tags: [blog, AlgoDat]
+tags: [blog, algoDat, java]
 
 author_profile: true
 sidebar:

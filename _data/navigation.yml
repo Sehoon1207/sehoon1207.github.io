@@ -46,18 +46,25 @@ sidebar-category:
         category: "javascript"
   - title: Studium
     children:
-      - title: "IntroPro"
-        url: categories/intropro/
-        category: "intropro"
-      - title: "Signale und Systeme"
-        url: categories/sus/
-        category: "sus"
-      - title: "Analysis II"
-        url: categories/ana_2/
-        category: "ana_2"
-      - title: "Elektrische Netzwerke"
+      - title: "2023-s AlgoDat"
+        url: categories/algoDat/
+        category: "algoDat"
+      - title: "2023-s Elektrische Netzwerke"
         url: categories/elnw/
         category: "elnw"
+      - title: "2023-s Systemprogrammierung"
+        url: categories/syspro/
+        category: "syspro"
+      - title: "2023-s Analysis II"
+        url: categories/ana_2/
+        category: "ana_2"
+      - title: "2022-w IntroPro"
+        url: categories/intropro/
+        category: "intropro"
+      - title: "2022-w Signale und Systeme"
+        url: categories/sus/
+        category: "sus"
+
   - title: Etc
     children:
       - title: "Jekyll"

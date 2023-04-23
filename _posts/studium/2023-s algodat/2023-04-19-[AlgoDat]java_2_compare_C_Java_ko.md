@@ -3,9 +3,9 @@ layout: single
 title: "[AlgoDat]C와 Java의 비교"
 folder: "AlgoDat"
 categories:
-  - AlgoDat
+  - algoDat
 
-tags: [blog, AlgoDat]
+tags: [blog, algoDat, java]
 
 author_profile: true
 sidebar:

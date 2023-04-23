@@ -3,9 +3,9 @@ layout: single
 title: "[AlgoDat]기본 데이터 유형"
 folder: "AlgoDat"
 categories:
-  - AlgoDat
+  - algoDat
 
-tags: [blog, AlgoDat, java]
+tags: [blog, algoDat, java]
 
 author_profile: true
 sidebar:
