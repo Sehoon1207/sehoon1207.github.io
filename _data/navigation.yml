@@ -33,10 +33,10 @@ sidebar-category:
   - title: Programming
     children:
       - title: "C"
-        url: categories/c/
+        url: /_pages/categories/c/
         category: "c"
       - title: "VHDL"
-        url: categories/vhdl/
+        url: /_pages/categories/vhdl/
         category: "vhdl"
       - title: "Html&Css"
         url: categories/html&css/
