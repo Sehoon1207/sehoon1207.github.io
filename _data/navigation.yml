@@ -1,7 +1,7 @@
 # main links
 main:
-  # - title: "Home"
-  #   url: /
+  - title: "<i class='fas fa-home'></i>"
+    url: /
   - title: "Projects"
     url: "/_pages/projects"
   - title: "Experience"
