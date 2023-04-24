@@ -3,9 +3,9 @@ layout: single
 title: "[html&css] 00 Intro"
 folder: "html&css"
 categories:
-  - html&css
+  - htmlcss
 
-tags: [blog, html&css]
+tags: [blog, htmlcss]
 
 author_profile: true
 sidebar:
@@ -22,7 +22,7 @@ lang-ref: multilingual
 
 # use_math: true
 
-date: 2023-04-23
+date: 2023-04-24
 ---
 “Während ich studiere, schreibe ich hier kurze Zusammenfassungen für eine längere Erinnerung.”
 
@@ -81,8 +81,8 @@ JavaScript는 웹 페이지에서 `동적인 기능을 추가`하는 `프로그�
 
 ---
 
-Quelle(text):   
-Quelle(image): Deutsch Welle
+Quelle(text): vorlesung, [nomadcoders]<https://nomadcoders.co/>
+Quelle(image): main page, [Deutsch_Welle]<https://www.dw.com/en/>
 
 
 <!-- &nbsp; 1칸 띄어쓰기 -->
