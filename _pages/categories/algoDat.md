@@ -1,7 +1,7 @@
 ---
 title: "Algorithmen und Datenstrukturen"
 layout: archive
-permalink: /_pages/categories/algoDat
+permalink: /_pages/categories/algoDat/
 author_profile: true
 
 sidebar:

@@ -1,7 +1,7 @@
 ---
 title: "etc"
 layout: archive
-permalink: /_pages/categories/etc
+permalink: /_pages/categories/etc/
 author_profile: true
 
 sidebar:

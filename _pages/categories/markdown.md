@@ -1,7 +1,7 @@
 ---
 title: "markdown"
 layout: archive
-permalink: /_pages/categories/markdown
+permalink: /_pages/categories/markdown/
 author_profile: true
 
 sidebar:

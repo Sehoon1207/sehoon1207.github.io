@@ -1,7 +1,7 @@
 ---
 title: "Programming vhdl"
 layout: archive
-permalink: /_pages/categories/vhdl
+permalink: /_pages/categories/vhdl/
 author_profile: true
 
 sidebar:

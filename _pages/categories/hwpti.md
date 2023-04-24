@@ -1,7 +1,7 @@
 ---
 title: "Hardwarepraktikum"
 layout: archive
-permalink: /_pages/categories/hwpti
+permalink: /_pages/categories/hwpti/
 author_profile: true
 
 sidebar:

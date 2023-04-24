@@ -1,7 +1,7 @@
 ---
 title: "Analysis II für Ingenieurwissenschaften"
 layout: archive
-permalink: /_pages/categories/ana_2
+permalink: /_pages/categories/ana_2/
 author_profile: true
 
 sidebar:

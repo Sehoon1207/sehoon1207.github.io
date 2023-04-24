@@ -1,7 +1,7 @@
 ---
 title: "Elektrische Netzwerke"
 layout: archive
-permalink: /_pages/categories/elnw
+permalink: /_pages/categories/elnw/
 author_profile: true
 
 sidebar:
