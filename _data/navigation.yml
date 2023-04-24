@@ -5,17 +5,17 @@ main:
   - title: "Projects"
     url: "/_pages/projects"
   - title: "Experience"
-    url: "/experience"
+    url: "/_pages/experience"
   - title: "Network"
-    url: "/network"
+    url: "/_pages/network"
   - title: "GitHub"
-    url: "/gitHub"
+    url: "/_pages/gitHub"
   - title: "UserInterface"
-    url: "/userInterface"
+    url: "/_pages/userInterface"
   - title: "Inspection"
-    url: "/inspection"
+    url: "/_pages/inspection"
   - title: "NextStep"
-    url: "/nextStep"
+    url: "/_pages/nextStep"
   # - title: "Category"
   #   url: "/categories"
   # - title: "Tag"
@@ -39,46 +39,46 @@ sidebar-category:
         url: /_pages/categories/vhdl/
         category: "vhdl"
       - title: "Html&Css"
-        url: categories/html&css/
+        url: /_pages/categories/html&css/
         category: "html&css"
       - title: "JavaScript"
-        url: categories/javascript/
+        url: /_pages/categories/javascript/
         category: "javascript"
   - title: Studium
     children:
       - title: "2023-s AlgoDat"
-        url: categories/algoDat/
+        url: /_pages/categories/algoDat/
         category: "algoDat"
       - title: "2023-s Elektrische Netzwerke"
-        url: categories/elnw/
+        url: /_pages/categories/elnw/
         category: "elnw"
       - title: "2023-s Systemprogrammierung"
-        url: categories/syspro/
+        url: /_pages/categories/syspro/
         category: "syspro"
       - title: "2023-s Hardwarepraktikum"
-        url: categories/hwpti/
+        url: /_pages/categories/hwpti/
         category: "hwpti"
       - title: "2023-s Analysis II"
-        url: categories/ana_2/
+        url: /_pages/categories/ana_2/
         category: "ana_2"
 
       - title: "2022-w IntroPro"
-        url: categories/intropro/
+        url: /_pages/categories/intropro/
         category: "intropro"
       - title: "2022-w Signale und Systeme"
-        url: categories/sus/
+        url: /_pages/categories/sus/
         category: "sus"
 
   - title: Etc
     children:
       - title: "Jekyll"
-        url: categories/jekyll/
+        url: /_pages/categories/jekyll/
         category: "jekyll"
       - title: "Markdown"
-        url: categories/markdown/
+        url: /_pages/categories/markdown/
         category: "markdown"
       - title: "etc"
-        url: categories/etc/
+        url: /_pages/categories/etc/
         category: "etc"
   - title: Search
     children:

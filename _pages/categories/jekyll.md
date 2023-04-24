@@ -1,7 +1,7 @@
 ---
 title: "jekyll"
 layout: archive
-permalink: /categories/jekyll
+permalink: /_pages/categories/jekyll
 author_profile: true
 
 sidebar:

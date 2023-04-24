@@ -1,7 +1,7 @@
 ---
 title: "Einführung in die Programmierung"
 layout: archive
-permalink: /categories/intropro
+permalink: /_pages/categories/intropro
 author_profile: true
 
 sidebar:

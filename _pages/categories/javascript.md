@@ -1,7 +1,7 @@
 ---
 title: "Programming javascript"
 layout: archive
-permalink: /categories/javascript
+permalink: /_pages/categories/javascript
 author_profile: true
 
 sidebar:

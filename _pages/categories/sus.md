@@ -1,7 +1,7 @@
 ---
 title: "Signale und Systeme"
 layout: archive
-permalink: /categories/sus
+permalink: /_pages/categories/sus
 author_profile: true
 
 sidebar:

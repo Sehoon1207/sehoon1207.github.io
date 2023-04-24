@@ -1,7 +1,7 @@
 ---
 title: "Systemprogrammierung"
 layout: archive
-permalink: /categories/syspro
+permalink: /_pages/categories/syspro
 author_profile: true
 
 sidebar:

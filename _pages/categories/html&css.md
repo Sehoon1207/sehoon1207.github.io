@@ -1,7 +1,7 @@
 ---
 title: "Programming html&css"
 layout: archive
-permalink: /categories/html&css
+permalink: /_pages/categories/html&css
 author_profile: true
 
 sidebar:
