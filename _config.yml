@@ -16,9 +16,9 @@ minimal_mistakes_skin: "custom2" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "Hoon's Note"
+title: "Interactive Space"
 title_separator: "|"
-subtitle: "programming blog v1.1" # site tagline that appears below site title in masthead
+subtitle: "Architect/Program note v1.2" # site tagline that appears below site title in masthead
 name: "Hoon"
 description: "Hoon's study note"
 url: "https://sehoon1207.github.io" # the base hostname & protocol for your site e.g.
