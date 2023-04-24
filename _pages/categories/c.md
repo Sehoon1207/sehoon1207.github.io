@@ -1,7 +1,7 @@
 ---
 title: "Programming C"
 layout: archive
-permalink: /_pages/categories/c
+permalink: /_pages/categories/c/
 author_profile: true
 
 sidebar:
