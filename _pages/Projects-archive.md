@@ -11,14 +11,14 @@ sidebar:
 header:
   overlay_color: "#5e616c"
   overlay_image: /_pages/img/projects/4.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+  # actions:
+  #   - label: "<i class='fas fa-download'></i> Install now"
+  #     url: "/docs/quick-start-guide/"
 excerpt: >
   Here is a list of my projects I've been working on. <br />
   Take a look at the images and short descriptions of each project.<br /> 
   if you're interested, click "learn more"!<br />
-  <small><a href="#">Latest release v4.24.0</a></small>
+  <small><a href="#">Latest release v1.3.0</a></small>
 feature_row:
   - image_path: /_pages/img/projects/1.jpg
     alt: "customizable"
