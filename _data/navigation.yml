@@ -3,7 +3,7 @@ main:
   # - title: "Home"
   #   url: /
   - title: "Projects"
-    url: "/projects/"
+    url: "/_pages/projects"
   - title: "Experience"
     url: "/experience"
   - title: "Network"
