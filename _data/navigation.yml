@@ -39,8 +39,8 @@ sidebar-category:
         url: /_pages/categories/vhdl/
         category: "vhdl"
       - title: "Html&Css"
-        url: /_pages/categories/html&css/
-        category: "html&css"
+        url: /_pages/categories/htmlcss/
+        category: "htmlcss"
       - title: "JavaScript"
         url: /_pages/categories/javascript/
         category: "javascript"
