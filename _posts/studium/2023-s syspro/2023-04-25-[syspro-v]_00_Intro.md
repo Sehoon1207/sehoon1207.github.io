@@ -176,7 +176,13 @@ Linux는 리눅스 토발즈가 개발한 운영 체제다. 리눅스는 UNIX와
 
 ---
 
-Quelle(text): vorlesung, [nomadcoders]<https://nomadcoders.co/>
+Quelle(text):
+
+pdf dateien, [studocu](https://www.studocu.com/de/course/technische-universitat-berlin/systemprogrammierung/1514199)
+pdf dateien, [studydrive](https://www.studydrive.net/de/course/systemprogrammierung/137292#documents)
+Klausur pdf dateien, [Klausurensammlung der Freitagsrunde](https://docs.freitagsrunde.org/Klausuren/Systemprogrammierung/)
+Vorlesung, Systemprogrammierung, [TU-Berlin]<https://www.tu.berlin/dos/>
+
 Quelle(image):
 
 <!-- &nbsp; 1칸 띄어쓰기 -->
