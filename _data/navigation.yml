@@ -28,22 +28,25 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  
+
 sidebar-category:
   - title: Programming
     children:
       - title: "C"
         url: /_pages/categories/c/
         category: "c"
-      - title: "VHDL"
-        url: /_pages/categories/vhdl/
-        category: "vhdl"
+      - title: "Java"
+        url: /_pages/categories/java/
+        category: "java"
       - title: "Html&Css"
         url: /_pages/categories/htmlcss/
         category: "htmlcss"
       - title: "JavaScript"
         url: /_pages/categories/javascript/
         category: "javascript"
+      - title: "VHDL"
+        url: /_pages/categories/vhdl/
+        category: "vhdl"
   - title: Studium
     children:
       - title: "2023-s AlgoDat"
@@ -88,10 +91,6 @@ sidebar-category:
         url: categories/
       - title: "Tag"
         url: tags/
-        
-
-
-
 
 counts:
   - title: "Categories"
