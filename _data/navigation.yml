@@ -68,9 +68,9 @@ sidebar-category:
       - title: "2022-w IntroPro"
         url: /_pages/categories/intropro/
         category: "intropro"
-      - title: "2022-w Signale und Systeme"
-        url: /_pages/categories/sus/
-        category: "sus"
+      # - title: "2022-w Signale und Systeme"
+      #   url: /_pages/categories/sus/
+      #   category: "sus"
 
   - title: Etc
     children:
