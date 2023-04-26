@@ -264,7 +264,7 @@ img태그는 수많은 속성들 중에서도 필수인 속성 src(source)와 wi
 
 ---
 
-Quelle(text): vorlesung, [nomadcoders]<https://nomadcoders.co/>
+Quelle(text): vorlesung, [nomadcoders](https://nomadcoders.co/)  
 Quelle(image):
 
 <!-- &nbsp; 1칸 띄어쓰기 -->
