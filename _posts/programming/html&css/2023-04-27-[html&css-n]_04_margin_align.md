@@ -160,6 +160,8 @@ inline-block으로 설정 할 경우, 내부의 contents들은 block으로 인�
 
 </div>
 
+---
+
 # 02 block의 추가적인 특징 (margin, padding, border)
 
 block에는 추가적인 특징이 세가지가 있고 속성으로 부여할 수 있다.
@@ -244,6 +246,24 @@ Collapsing margins는 예상치 못한 결과를 초래할 수 있기 때문에 
 </div>
 
 ## 02-2 border
+
+border 속성은 요소의 테두리를 설정하는 데 사용된다.
+
+```css
+.exsample {
+  border: 2px solid blue;
+}
+```
+
+border 속성은 세 부분으로 이루어져 있으며, 각 부분은 **border-width, border-style, border-color**로 구성된다.
+
+**border-width:** 테두리의 두께를 설정한다. 일반적으로 px 또는 em 단위를 사용한다. border-width 값은 top, right, bottom, left 속성을 이용해 각 방향에 대해 설정할 수 있다.
+
+**border-style:** 테두리의 스타일을 설정합니다. 값으로는 none, solid, dotted, dashed 등이 있다.
+
+**border-color:** 테두리의 색상을 설정한다. 값으로는 hex code, rgb, rgba, color name 등이 있다.
+
+border-width, border-style, border-color 세 값들 모두 top, right, bottom, left 속성을 이용해 각 방향에 대해 설정할 수 있다. 예를 들어, border-top-width: 1px는 요소의 위쪽에 1px 두께의 테두리를 만든다는 것이다.
 
 ---
 
