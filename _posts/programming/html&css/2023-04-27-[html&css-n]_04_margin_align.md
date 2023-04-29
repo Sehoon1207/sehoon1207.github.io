@@ -1,6 +1,6 @@
 ---
 layout: single # 새로운 포스트 작성시 확인할 것
-title: "[html&css-n] 04 css의 inline block alien" #제목 확인
+title: "[html&css-n] 04 css로 여백관리 및 정렬" #제목 확인
 folder: "html&css" #폴더 확인
 categories:
   - htmlcss #카테고리 확인
@@ -245,7 +245,11 @@ Collapsing margins는 예상치 못한 결과를 초래할 수 있기 때문에 
 
 ## 02-2 border
 
-## 02-3 flexbox
+---
+
+# 03 요소들을 정리하기
+
+## 03-1 flexbox
 
 <div class="notice">
 <b>부모-자식 관계</b><br>
@@ -281,7 +285,62 @@ HTML에서 부모-자식 관계란, 한 요소(element)가 다른 요소 안에 
 }
 ```
 
-부모인 first에게 flex속성을 부여하고 추가로 속성을 부여함으로써 자식인 박스들(예제에 따르면 second, third, fourth)이 이동하게 되는 것이다.
+부모인 first에게 flex속성을 부여하고 추가로 속성을 부여함으로써 자식인 박스들(예제에 따르면 second, third, fourth)이 추가하는 속성에 따라 이동또는 정렬하게 되는 것이다.
+
+다음으로 알아볼 것은 display:flex와 함께 사용하는 속성들이다.
+
+## 03-2 수평정렬하기 justify-content
+
+justify-content속성을 사용하면 content들을 좌,우,가운데 정렬 등 쉽게 움직일 수 있다. 따라서 그에 해당하는 여러가지 값을 줄 수 있다. margin과는 달리 브라우저에 크기를 변화시키면 자동으로 빈 공간의 크기를 조절해 준다. 사용 가능한 값들은 다음과 같다.
+
+```css
+/* 가운데 정렬 */
+justify-content: center;
+/* 오른쪽 정렬 */
+justify-content: flex-end;
+/* 왼쪽 정렬, 기본값(default) */
+justify-content: flex-start;
+/* 빈 공간을 같은 크기로 나누어서 배치 */
+justify-content: space-evenly;
+justify-content: space-bitween;
+```
+
+## 03-3 수직정렬하기
+
+앞서 살펴본 justify-content를 이용하면 수평에 해당하는 부분은 정렬이 가능했다. 그럼 수직은 어떻게 해야할까?
+
+수직정렬을 하기 위해서는 메인축(main axis)과 교차축(cross axis)를 알아야 한다.  
+flexbox를 정렬 할 때 사용한 justify-content는 기본으로 메인축이 수평방향인 상태이다. 따라서 정렬속성을 주면 수평을 기준으로 content들이 정렬되는 것이다. 따라서 수직방향을 정렬하려면 두가지 방법이 있는데, 첫번째는 메인 축을 수직으로 바꾸는 방법, 그리고 두번째는 aline-item속성을 사용하는 방법이다. 그 속성이 바로 flex-direction이다.
+
+### 03-3-1 첫번 째 축의 방향을 바꾸기 flex-direction
+
+```css
+/* 메인축: 수평, 교차축: 수직 (디폴트)*/
+flex-direction: row;
+/* 메인축: 수직, 교차축: 수평 */
+flex-direction: column;
+```
+
+위 예제코드에서 볼 수 있듯이 flex-direction은 row가 기본값(default)이며 변경사항이 없을 경우 이 값이 기본으로 되어 있다. 하지만 flex-direction값을 column으로 변경하면 메인축이 수직이 되면서 해당 부모의 자식요소들을 수직정렬 할 수 있다.
+
+### 03-3-2 두번 째 교차축 정렬하기 aline-items
+
+aline-items 속성도 마찬가지로 display:flex와 함께 사용하는 속성이며 justify-content와 같이 자식들을 정렬할 수 있는 여러가지 방법(값)들이 있다.
+
+```css
+align-items: stretch;
+/* (기본값): flex 아이템들을 교차 축 방향으로 늘려서 채운다. */
+align-items: flex-start;
+/*  flex 아이템들을 교차 축 시작점에 정렬. */
+align-items: flex-end;
+/*  flex 아이템들을 교차 축 끝점에 정렬. */
+align-items: center;
+/* flex 아이템들을 교차 축 방향으로 중앙에 정렬. */
+align-items: baseline;
+/*  flex 아이템들을 텍스트의 기준선(baseline)에 맞추어 정렬. */
+```
+
+`align-items의 경우 justify-content와 다르게 컨텐츠 간의 간격을 자동 조절하는 space-bitween 등을 사용할 수 없기 때문에 빈 공간을 조절할 필요가 있는 경우, 축을 변경해야만 한다.`
 
 ---
 

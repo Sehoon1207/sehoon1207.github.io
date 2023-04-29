@@ -216,7 +216,81 @@ h1의 부분을 위와 같이 변경해보자.
 
 # 05 id와 class
 
----
+id와 class는 HTML과 CSS에서 요소를 선택하기 위한 속성(attribute)이다. css로 스타일링을 한다면 거의 대부분의 태그에 id값과 class 값을 주게 된다.
+
+## 05-1 id
+
+HTML에서 요소를 고유하게 식별하기 위한 속성으로, **한 페이지 내에서 동일한 id 값을 가지는 요소는 하나만 존재해야 한다.** id 선택자를 사용하면 해당 id를 가지는 요소를 선택할 수 있다. 예를 들어, <div id="main"> 요소를 선택하려면 #main이라는 선택자를 사용할 수 있다.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ... -->
+    <style>
+      #first {
+        color: red;
+      }
+      #second {
+        color: blue;
+      }
+      #third {
+        color: red;
+      }
+    </style>
+    <!-- ... -->
+  </head>
+  <body>
+    <form>
+      <!-- ... -->
+      <main>
+        <p id="first">nice to meet you</p>
+        <p id="second">nice to meet you</p>
+        <p id="third">nice to meet you</p>
+      </main>
+      <!-- ... -->
+    </form>
+  </body>
+</html>
+```
+
+## 05-2 class
+
+HTML에서 요소를 그룹으로 묶기 위한 속성으로, **한 요소가 여러 개의 클래스를 가질 수 있다.** class 선택자를 사용하여 해당 클래스를 가지는 요소를 선택할 수 있다. 예를 들어, <div class="container"> 요소를 선택하려면 .container라는 선택자를 사용할 수 있다.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ... -->
+    <style>
+      #first {
+        color: red;
+      }
+      #second {
+        color: blue;
+      }
+      #third {
+        color: red;
+      }
+    </style>
+    <!-- ... -->
+  </head>
+  <body>
+    <form>
+      <!-- ... -->
+      <main>
+        <p class="first">nice to meet you</p>
+        <p class="second third">nice to meet you</p>
+        <p class="third">nice to meet you</p>
+      </main>
+      <!-- ... -->
+    </form>
+  </body>
+</html>
+```
+
+id와 class는 모두 CSS 스타일을 적용할 때 매우 유용하게 사용된다. 특히, **class는 반복되는 스타일을 그룹화하여 효율적인 스타일링을 가능**하게 한다.
 
 ---
 
