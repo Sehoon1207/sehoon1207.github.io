@@ -70,13 +70,71 @@ $$\underline{Y}=\frac{I}{\underline{U}}=\frac{\underline{\hat{i}}}{\underline{\h
 
 ---
 
+<img src="https://github.com/Sehoon1207/sehoon1207.github.io/blob/main/_posts/studium/2023-s%20elnw/img/01_zeiger/01_a_groundlage.png?raw=true">
+
+**Wechselspannung**:
+
+$$u(t) = \hat{u}\cos(\omega t'+\varphi_{U})\cdots[V]$$
+
+**Wechselstorm**:
+
+$$i(t) = \hat{i}\cos(\omega t+\varphi_{I})\cdots[A]$$
+
+$$\omega = 2\pi f \cdots[rad/s = Hz]$$
+
+---
+
+$$\underline{u} = \hat{u}\cdot e^{j\varphi_{U}}\cdot e^{j\omega t} = \sqrt{2}\cdot U \cdot e^{j\varphi_{U}}\cdot e^{j\omega t} $$
+
+$$\cdots \underline{\hat{u}} = \hat{u}\cdot e^{j\varphi_{U}},\;\; \underline{U} = \sqrt{2}\cdot U \cdot e^{j\varphi_{U}}$$
+
+$$\underline{i} = \hat{i}\cdot e^{j\varphi_{I}}\cdot e^{j\omega t} = \sqrt{2}\cdot I \cdot e^{j\varphi_{I}}\cdot e^{j\omega t} $$
+
+$$\cdots \underline{\hat{i}} = \hat{i}\cdot e^{j\varphi_{I}},\;\; \underline{I} = \sqrt{2}\cdot I \cdot e^{j\varphi_{I}}$$
+
+---
+
+**ideale passive Bauelemente**
+
+**Widerstand R** $$[\Omega]$$:
+
+$$Z_R=R+j\cdot 0$$
+
+$$\underline{U} = Z_R\cdot\underline{I} \Leftrightarrow U\cdot e^{j\varphi_U} = R\cdot I\cdot e^{j \varphi_I} \rightarrow U = RI \cdots \varphi_U=\varphi_I$$
+
+**Induktivität L** $$[H = \Omega\cdot s]$$:
+
+(nur komplexe Zahl)
+
+$$\underline{Z_L} = j\omega L = \omega L\cdot e^{j \cdot \frac{\pi}{2}}$$
+
+$$\underline{U} = \underline{Z_L}\cdot \underline{I} \Leftrightarrow U\cdot e^{j\varphi_U} = j\omega L \cdot I \cdot e^{j \varphi_I}$$
+
+$$U = \omega L \cdot I$$
+
+$$\varphi_U = \varphi_I + \frac{\pi}{2} \; \; \; \cdots \; \varphi_{Z_\underline{L}} = arctan\left(\frac{Im(\underline{Z_L})}{Re(\underline{Z_L})}\right) = arctan\left(\frac{\omega L}{0}\right) = \frac{\pi}{2}$$
+
+**Kapazität C** :
+
+$$Z_c = \frac{1}{j\omega c}\cdot\frac{j}{j}=j\cdot\frac{1}{j^2\omega c}=-j\frac{1}{\omega c}=\frac{1}{\omega c}\cdot e^{j(-\frac{\pi}{2})}$$
+
+$$U e^{j\varphi_U} = \frac{1}{\omega c} e^{-j \frac{\pi}{2}}\cdot I \cdot e^{j\varphi_I}$$
+
+$$U = \frac{I}{\omega c}$$
+
+$$\varphi_U=\varphi_I-\frac{\pi}{2}$$
+
+---
+
 ---
 
 Quelle(text):  
-Groundlagen zur Elektrotechnik, Technische Hochschule Mittelhessen Pdf datei: <https://www.thm.de/iem/images/user/novender-978/get.pdf>  
-ElectronicsTutorials: <https://www.electronics-tutorials.ws/accircuits/complex-numbers.html>
-Quelle(image): Elektrische Netzwerke TU-Berlin pdf datei
-<https://isis.tu-berlin.de/pluginfile.php/2756135/mod_resource/content/10/1_Grundlagen_Zeiger-SENSE-2023.pdf>
+Groundlagen zur Elektrotechnik, Technische Hochschule Mittelhessen [Pdf datei](https://www.thm.de/iem/images/user/novender-978/get.pdf)  
+[ElectronicsTutorials](https://www.electronics-tutorials.ws/accircuits/complex-numbers.html)
+
+Quelle(image):
+Elektrische Netzwerke TU-Berlin [pdf datei](https://isis.tu-berlin.de/pluginfile.php/2756135/mod_resource/content/10/1_Grundlagen_Zeiger-SENSE-2023.pdf)  
+StuDoc [pdf datei](https://www.studocu.com/de/course/technische-universitat-berlin/elektrische-netzwerke/124295)
 
 <!-- &nbsp; 1칸 띄어쓰기 -->
 <!-- &ensp; 2칸 띄어쓰기 -->
