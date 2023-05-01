@@ -106,13 +106,13 @@ $$\underline{U} = Z_R\cdot\underline{I} \Leftrightarrow U\cdot e^{j\varphi_U} = 
 
 (nur komplexe Zahl)
 
-$$\underline{Z_L} = j\omega L = \omega L\cdot e^{j \cdot \frac{\pi}{2}}$$
+$$\underline{Z}_L = j\omega L = \omega L\cdot e^{j \cdot \frac{\pi}{2}}$$
 
-$$\underline{U} = \underline{Z_L}\cdot \underline{I} \Leftrightarrow U\cdot e^{j\varphi_U} = j\omega L \cdot I \cdot e^{j \varphi_I}$$
+$$\underline{U} = \underline{Z}_L\cdot \underline{I} \Leftrightarrow U\cdot e^{j\varphi_U} = j\omega L \cdot I \cdot e^{j \varphi_I}$$
 
 $$U = \omega L \cdot I$$
 
-$$\varphi_U = \varphi_I + \frac{\pi}{2} \; \; \; \cdots \; \varphi_{Z_\underline{L}} = arctan\left(\frac{Im(\underline{Z_L})}{Re(\underline{Z_L})}\right) = arctan\left(\frac{\omega L}{0}\right) = \frac{\pi}{2}$$
+$$\varphi_U = \varphi_I + \frac{\pi}{2} \; \; \; \cdots \; \varphi_{Z_\underline{L}} = arctan\left(\frac{Im(\underline{Z}_L)}{Re(\underline{Z}_L)}\right) = arctan\left(\frac{\omega L}{0}\right) = \frac{\pi}{2}$$
 
 **Kapazität C** :
 
@@ -126,16 +126,16 @@ $$\varphi_U=\varphi_I-\frac{\pi}{2}$$
 
 ---
 
-# Zeigerdiagramm (qualitativ und quantitativ)
+# 페이저 다이어그램 Zeigerdiagramm (qualitativ und quantitativ)
 
-## 1. Aufgabe: Qualitatives Zeigerdiagramm
+## 1. Aufgabe: 대략적인 페이저 다이어그램 (Qualitatives Zeigerdiagramm)
 
 <img src="https://github.com/Sehoon1207/sehoon1207.github.io/blob/main/_posts/studium/2023-s%20elnw/img/01_zeiger/01_a_u1.jpg?raw=true" width="1000px"/>
 
-### 1.1. Zeichnen des Zeigerdiagramms ohne genaue Berechnung
+### 1.1. 페이저 다이어그램을 그리고 계산하기 (Zeichnen des Zeigerdiagramms ohne genaue Berechnung)
 
-`Zeichnen Sie das qualitative Zeigerdiagramm` aller Ströme und Spannungen des Netzwerks (Abbildung 1). Kennzeichnen Sie dabei im Diagramm alle rechtenWinkel (90◦-Winkel) zwischen einzelnen Größen.
-Zeichnen Sie abschließend die reelle und imaginäre Achse ein.  
+`Zeichnen Sie das qualitative Zeigerdiagramm` aller Ströme und Spannungen des Netzwerks (Abbildung 1). Kennzeichnen Sie dabei im Diagramm `alle rechtenWinkel` (90◦-Winkel) zwischen einzelnen Größen.
+Zeichnen Sie abschließend `die reelle und imaginäre Achse` ein.  
 _Hinweis: Beginnen Sie mit dem Strom_ $$\underline{I_{R1}}$$
 
 **Lsg:**
@@ -158,13 +158,17 @@ $$
 \end{align}
 $$
 
-## 2. Aufgabe: Quantitatives Zeigerdiagramm
+<div class="notice--info">
+위 문제는 전기회로에 대한 문제를 제시하고, 해당 회로의 전류와 전압에 대한 퀄리티브한 (정확한 계산이 아닌 추정에 기반한) Zeiger 다이어그램을 그리라는 문제이다. 문제에서는 추가적으로 이러한 Zeiger 다이어그램을 그리기 위해 각각의 크기들 사이에 있는 90도 각도를 표시하라고 하며, 이를 위해 실수축과 허수축을 그리도록 지시하고 있다. <br>
+</div>
+
+## 2. Aufgabe: 정량적 페이저 다이어그램 (Quantitatives Zeigerdiagramm)
 
 <img src="https://github.com/Sehoon1207/sehoon1207.github.io/blob/main/_posts/studium/2023-s%20elnw/img/01_zeiger/01_a_u2.jpg?raw=true" width="1000px"/>
 
 ### 2.1. Berechnung und Zeichnung mit Bezuggröße
 
-Zeichnen Sie das quantitative Zeigerdiagramm aller Ströme und Spannungen des Netzwerks (Abbildung 2). Beginnen Sie am Bauteil C2 und nehmen für das Zeigerdiagramm erst einmal als beliebig gewöhlte Größe $$\underline{U'}_{C,2} = 10V\cdot e^{j0◦}$$ an. Achten Sie bei der `Länge der Zeiger` auf die Größen der Bauteile!  
+Zeichnen Sie `das quantitative Zeigerdiagramm` aller Ströme und Spannungen des Netzwerks (Abbildung 2). Beginnen Sie am Bauteil C2 und nehmen für das Zeigerdiagramm erst einmal als beliebig gewöhlte Größe $$\underline{U'}_{C,2} = 10V\cdot e^{j0◦}$$ an. Achten Sie bei der `Länge der Zeiger` auf die Größen der Bauteile!  
 _Hinweis: Zur Ermittlung der Länge der Zeiger denken Sie an das Ohmsche Gesetz! Orientieren Sie sich an der Länge des vorgegebenen Zeigers. Nutzen Sie das Koordinatensystem aus Abbildung 3_
 
 **Lsg:**
@@ -189,20 +193,26 @@ $$
 \end{align}
 $$
 
+<div class="notice--info">
+이 문제는 주어진 회로에 대한 정량적인(quantitative) Zeiger다이어그램을 그리는 것이다. C2부터 시작하며, 이전의 Zeiger 다이어그램을 보고, 다른 Zeiger들의 크기와 방향을 찾아 그린다. 각 Bauteil에 대한 Zeiger의 크기는 옴의 법칙을 사용하여 계산할 수 있다. 이전 문제와 마찬가지로, Zeiger 다이어그램에 실수축과 허수축을 추가하면 된다.<br>
+</div>
+
 ### 2.2. Neuberechnung der Größen bei Bezugsgröße U0
 
-Da im Allgemeinen eine Quelle als Referenzwert f¨ur die Schaltung genutzt wird, m¨ussen alle Werte auf
-diese bezogen werden. In diesem Fall wird die Quelle mit $$\underline{U}_0 = 15V\cdot e^{j0◦}$$ vorgegeben. Zeichnen Sie das richtige Koordinatensystem ein. Bestimmen Sie anschließend alle Spannungs- und Stromgrößen bezogen
-auf den Referenzwert.
+Da im Allgemeinen eine Quelle als Referenzwert für die Schaltung genutzt wird, müssen alle Werte auf diese bezogen werden. In diesem Fall wird die Quelle mit $$\underline{U}_0 = 15V\cdot e^{j0◦}$$ vorgegeben. Zeichnen Sie `das richtige Koordinatensystem` ein. Bestimmen Sie anschließend `alle Spannungs- und Stromgrößen` bezogen auf den Referenzwert.
 
 **Lsg:**
 
 $$
 \begin{align}
-&\underline{U'}= 15V\\
+&\underline{U'}_0= 15V\\
 &\underline{U}_0=\underline{K} \cdot \underline{U}_0 \Leftrightarrow K = \frac{15V}{\underline{U}_0}  \\
 \end{align}
 $$
+
+<div class="notice--info">
+이 문제에서는, 전체 회로의 모든 전압과 전류가 U_0를 기준으로 상대적인 값을 갖도록 변환되어야 한다. 우선, 적절한 좌표축을 그린다. 기준 좌표축은 x축에 실수축, y축에 허수축을 나타내며, 원점은 기준점이 된다. 그런 다음, 각 부분 회로에서 발생하는 모든 전압과 전류를 기준 전압값에 대한 상대적인 값을 계산한다. 그리고 나서, 이 값을 기준으로 새로운 Zeigerdiagramm을 그릴 수 있다.<br>
+</div>
 
 ---
 
