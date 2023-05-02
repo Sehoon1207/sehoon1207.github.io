@@ -22,7 +22,7 @@ lang-ref: multilingual
 
 # use_math: true                    #숫자 사용 확인
 
-date: 2023-04-27 #날짜 확인
+date: 2023-05-01 #날짜 확인
 ---
 
 <div class="notice">
@@ -206,6 +206,68 @@ h1 ~ p {
 ```
 
 h1 요소 이후에 나오는 모든 p 요소에 밑줄을 적용한다.
+
+---
+
+# 03 그 외 추가적인 의사 선택자(pseudo-selector) :hover, :active, :focus, :visited
+
+**:hover**: 마우스가 해당 요소 위에 올라가 있을 때 적용된다. 예를 들어, 버튼에 커서를 올리면 배경 색상이 바뀌는 효과를 만들 수 있다.
+
+```css
+button:hover {
+  background-color: yellow;
+  color: black;
+}
+```
+
+**:active**: 해당 요소가 활성화(active)될 때 적용된다. 예를 들어, 버튼을 클릭하는 동안 색상이 바뀌는 효과를 만들 수 있다.
+
+```css
+button:active {
+  background-color: green;
+  color: white;
+}
+```
+
+**:focus**: 해당 요소가 포커스(focus)를 받았을 때 적용된다. 예를 들어, 입력 필드에 포커스가 이동하면 테두리가 강조되는 효과를 만들 수 있다.
+
+```css
+input:focus {
+  border: 2px solid blue;
+  outline: none;
+}
+```
+
+**:focus-within**은 CSS 유효 범위 내에서 포커스가 있는 요소의 부모 요소에 스타일을 적용하는 가상 클래스 선택자이다. 이를 사용하여 입력 요소의 레이블을 스타일링하거나, 포커스가 있는 요소의 부모 요소를 강조하는 등의 디자인을 적용할 수 있다.
+
+간단하게 다음과 같이 사용할 수 있다.
+
+```html
+<div class="parent">
+  <label for="input">Name:</label>
+  <input type="text" id="input" />
+</div>
+```
+
+```css
+.parent:focus-within {
+  border: 2px solid blue;
+}
+```
+
+위 코드는 parent 요소 내의 input 요소(children)가 포커스를 받으면 parent 요소의 테두리에 파란색 테두리가 추가된다. 이때 label 요소를 스타일링하거나, parent 요소 내에 다른 요소들을 스타일링하는 등 다양한 스타일링을 적용할 수 있다.
+
+<div class="notice--danger">
+<b>within은 focus에만 적용가능하다.</b>
+</div>
+
+**:visited**: 해당 요소가 방문된 상태(visited)일 때 적용된다. 보통 하이퍼링크에 사용되며, 방문한 링크와 아직 방문하지 않은 링크를 구분할 수 있다.
+
+```css
+a:visited {
+  color: gray;
+}
+```
 
 ---
 
