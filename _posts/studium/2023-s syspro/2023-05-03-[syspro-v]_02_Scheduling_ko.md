@@ -223,6 +223,9 @@ CPU버스트 시간에 대한 준비 대기열 대기 시간이 상대적으로 
 
 다단계 스케줄링은 우선순위, I/O 사용률 등을 고려하여 작업을 여러 그룹으로 분류하고 각 그룹에서 서로 다른 스케줄링 전략을 사용한다.
 
+다단계 큐(MQ : Multi-level Queue)
+다단계 피드백 큐(MFQ : Multi-level Feedback Queue) 스케줄링
+
 # 04 Scheduling mit Sollzeitpunkten
 
 Scheduling with deadline은 작업이 완료되어야 하는 시간을 고려하여 스케줄링한다. 이러한 전략은 실시간 시스템에서 중요하다.
