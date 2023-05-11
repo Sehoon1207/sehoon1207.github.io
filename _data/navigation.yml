@@ -9,7 +9,6 @@ main:
   - title: "Network"
     url: "/_pages/network"
   - title: "GitHub"
-    # url: "/_pages/gitHub"
     url: "https://github.com/Sehoon1207"
   - title: "UserInterface"
     url: "/_pages/userInterface"
