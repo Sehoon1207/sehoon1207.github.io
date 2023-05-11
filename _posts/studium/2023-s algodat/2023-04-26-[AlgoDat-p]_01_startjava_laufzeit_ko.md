@@ -27,11 +27,13 @@ date: 2023-04-26 #날짜 확인
 
 <div class="notice">
 “Während ich studiere, schreibe ich hier kurze Zusammenfassungen für eine längere Erinnerung.”<br>
+Quellen für das Schreiben oder den Inhalt befinden sich normalerweise ganz unten.<br>
 "공부하면서 더 오래 상기시키기 위해 여기에 짧은 요약을 씁니다."<br>
-<b>
+글이나 내용의 출처는 보통 하단에 있습니다.<br>
+
 <pre>
 OS    : Window
-Editor: VScode</pre></b>
+Editor: IntelliJ IDEA</pre>
 </div>
 
 # 01 객체 지향 프로그래밍의 주요개념

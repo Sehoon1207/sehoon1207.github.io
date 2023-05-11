@@ -23,8 +23,16 @@ lang-ref: multilingual
 date: 2023-04-19
 ---
 
-"Während ich das PDF-Material studiere,
-schreibe ich hier kurze Zusammenfassungen für eine längere Erinnerung."
+<div class="notice">
+“Während ich studiere, schreibe ich hier kurze Zusammenfassungen für eine längere Erinnerung.”<br>
+Quellen für das Schreiben oder den Inhalt befinden sich normalerweise ganz unten.<br>
+"공부하면서 더 오래 상기시키기 위해 여기에 짧은 요약을 씁니다."<br>
+글이나 내용의 출처는 보통 하단에 있습니다.<br>
+
+<pre>
+OS    : Window
+Editor: IntelliJ IDEA</pre>
+</div>
 
 Abgesehen von den konzeptionellen Unterschieden zwischen objektorientierten (Java) Programmiersprachen und prozeduralen (C) Programmiersprachen verfügt C nicht über eine JVM, automatische Speicherverwaltung etc.  
 Hier ist eine Tabelle, die die Unterschiede zeigt.

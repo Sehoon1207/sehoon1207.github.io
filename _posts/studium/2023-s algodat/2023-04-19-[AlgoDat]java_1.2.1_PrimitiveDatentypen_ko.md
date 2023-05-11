@@ -25,7 +25,16 @@ use_math: true
 date: 2023-04-19
 ---
 
-"PDF 자료를 공부하면서 더 오래 상기시키기 위해 여기에 짧은 요약을 씁니다."
+<div class="notice">
+“Während ich studiere, schreibe ich hier kurze Zusammenfassungen für eine längere Erinnerung.”<br>
+Quellen für das Schreiben oder den Inhalt befinden sich normalerweise ganz unten.<br>
+"공부하면서 더 오래 상기시키기 위해 여기에 짧은 요약을 씁니다."<br>
+글이나 내용의 출처는 보통 하단에 있습니다.<br>
+
+<pre>
+OS    : Window
+Editor: IntelliJ IDEA</pre>
+</div>
 
 > `자료형(data type)`은 어떤 종류의 변수인지, 어떤 작업을 수행할 수 있는지, 변수가 메모리에 어떻게 표시되는지, 즉 어떤 비트가 어떤 의미를 가지며 얼마나 많은 변수가 있는지를 결정한다.
 > `기본 데이터 유형(primitive data types)`은 단순한 데이터 유형으로 구성되지 않으며 Java에는 다음과 같다.

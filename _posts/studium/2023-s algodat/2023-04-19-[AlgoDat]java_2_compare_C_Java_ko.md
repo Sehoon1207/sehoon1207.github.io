@@ -23,7 +23,16 @@ lang-ref: multilingual
 date: 2023-04-19
 ---
 
-"PDF 자료를 공부하면서 더 오래 상기시키기 위해 여기에 짧은 요약을 씁니다."
+<div class="notice">
+“Während ich studiere, schreibe ich hier kurze Zusammenfassungen für eine längere Erinnerung.”<br>
+Quellen für das Schreiben oder den Inhalt befinden sich normalerweise ganz unten.<br>
+"공부하면서 더 오래 상기시키기 위해 여기에 짧은 요약을 씁니다."<br>
+글이나 내용의 출처는 보통 하단에 있습니다.<br>
+
+<pre>
+OS    : Window
+Editor: IntelliJ IDEA</pre>
+</div>
 
 객체 지향(Java) 프로그래밍 언어와 절차적(C) 프로그래밍 언어 간의 개념적 차이 외에도 C에는 JVM, 자동 메모리 관리 등이 없습니다. 다음은 차이점을 나타낸 표입니다.
 
