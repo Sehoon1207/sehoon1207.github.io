@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[HWPTI] 01 Hardware Programming 시작"
+title: "[HWPTI-v] 01 Hardware Programming 시작"
 folder: "hwpti"
 categories:
   - hwpti
@@ -25,7 +25,12 @@ use_math: true
 date: 2023-04-23
 ---
 
-“Während ich studiere, schreibe ich hier kurze Zusammenfassungen für eine längere Erinnerung.”
+<div class="notice">
+“Während ich studiere, schreibe ich hier kurze Zusammenfassungen für eine längere Erinnerung.”<br>
+Quellen für das Schreiben oder den Inhalt befinden sich normalerweise ganz unten.<br>
+"공부하면서 더 오래 상기시키기 위해 여기에 짧은 요약을 씁니다."<br>
+글이나 내용의 출처는 보통 하단에 있습니다.<br>
+</div>
 
 # 00 간단 용어정리
 
