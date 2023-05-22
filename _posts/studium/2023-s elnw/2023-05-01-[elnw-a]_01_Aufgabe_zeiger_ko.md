@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[ELNW-p] 01 Zeiger 문제"
+title: "[ELNW-a] 01 Zeiger 문제"
 folder: "elnw"
 categories:
   - elnw
