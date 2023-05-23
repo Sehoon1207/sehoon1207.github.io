@@ -162,7 +162,9 @@ $$
 
 # 2. Aufgabe: 어드미턴스의 궤적곡선 Ortskurve der Impedanz (Impedanzkurve)
 
-## 1.1. 질적 궤적곡선 Qualitative Ortskurve
+<img src="https://github.com/Sehoon1207/sehoon1207.github.io/blob/main/_posts/studium/2023-s%20elnw/img/02_Ortskurve/02_2_Teilnetzwerk.jpg?raw=true" >
+
+## 2.1. 질적 궤적곡선 Qualitative Ortskurve
 
 > Geben Sie rein qualitativ den Verlauf der Ortskurve der Admittanz $$\underline{Y}(f)$$ an. Leiten Sie diese aus den
 > Ortskurven der Teiladmittanzen $$\underline{Y}_3(f)$$ und $$\underline{Y}_4(f)$$ her. Siehe dazu auch Abbildung 3.
@@ -185,7 +187,7 @@ $$
 
 <img src="https://github.com/Sehoon1207/sehoon1207.github.io/blob/main/_posts/studium/2023-s%20elnw/img/02_Ortskurve/02-5_ortskurv_2.png?raw=true" >
 
-## 1.2. 정량적인 궤적곡선 Ortskurve der Admittanz
+## 2.2. 정량적인 궤적곡선 Ortskurve der Admittanz
 
 > Stellen Sie allgemein die Formel für $$\underline{Y}(f)$$. Trennen Sie dabei den Real- und den Imaginärteil. Berechnen Sie die Punkte auf der Admittanzkurve $$\underline{Y}(f)$$ an den Stellen f = 0,1Hz, 1Hz und 20Hz.
 
@@ -201,12 +203,18 @@ $$
 
 ---
 
-Quelle(text):
-Groundlagen zur Elektrotechnik, Technische Hochschule Mittelhessen [Pdf datei](https://www.thm.de/iem/images/user/novender-978/get.pdf)
+# 3 기본적인 궤적곡선들
+
+<img src="https://github.com/Sehoon1207/sehoon1207.github.io/blob/main/_posts/studium/2023-s%20elnw/img/02_Ortskurve/02_3_sammlung.jpg?raw=true" >
+
+---
+
+Quelle(text):  
+Groundlagen zur Elektrotechnik, Technische Hochschule Mittelhessen [Pdf datei](https://www.thm.de/iem/images/user/novender-978/get.pdf)  
 [ElectronicsTutorials](https://www.electronics-tutorials.ws/accircuits/complex-numbers.html)
 
-Quelle(image):
-Elektrische Netzwerke TU-Berlin [pdf datei](https://isis.tu-berlin.de/pluginfile.php/2756135/mod_resource/content/10/1_Grundlagen_Zeiger-SENSE-2023.pdf)
+Quelle(image):  
+Elektrische Netzwerke TU-Berlin [pdf datei](https://isis.tu-berlin.de/pluginfile.php/2756135/mod_resource/content/10/1_Grundlagen_Zeiger-SENSE-2023.pdf)  
 StuDoc [pdf datei](https://www.studocu.com/de/course/technische-universitat-berlin/elektrische-netzwerke/124295)
 
 <!-- &nbsp; 1칸 띄어쓰기 -->
