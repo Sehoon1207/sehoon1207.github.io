@@ -118,13 +118,13 @@ $$
 \\
 & \underline{Z}_{ges}(ω) = \underline{Z}_1(ω) + \underline{Z}_2(ω) &&\\
 \\
-& ① \underline{Z}_1(ω) = -j\frac{1}{ωC_1}\\
+& ①\; \underline{Z}_1(ω) = -j\frac{1}{ωC_1}\\
 \end{flalign}
 $$
 
 $$
 \begin{flalign}
-& ② \underline{Z}_2(ω) =\frac{1}{\frac{1}{\underline{Z}_{R_2}}+\frac{1}{\underline{Z}_{C_2}}} &&\\
+& ②\; \underline{Z}_2(ω) =\frac{1}{\frac{1}{\underline{Z}_{R_2}}+\frac{1}{\underline{Z}_{C_2}}} &&\\
 &\;\;\;\;\;\;\;\;\;\;\;\;\;=\frac{1}{\frac{1}{\underline{Z}_{R_2}}+\frac{1}{\frac{1}{jωC_2}}} &&\\
 &\;\;\;\;\;\;\;\;\;\;\;\;\;=\frac{1}{\frac{1}{R_2}+jωC_2} \cdot \frac{R_2}{R_2} &&\\
 &\;\;\;\;\;\;\;\;\;\;\;\;\;=\frac{R_2}{1+jωC_2R_2} \cdot \frac{1-jωC_2R_2}{1-jωC_2R_2} &&\\
@@ -149,9 +149,14 @@ $$
 
 $$
 \begin{flalign}
-& \underline{Y}_{ges}(f=0.1kHz) = 0.2307 \frac{1}{Ω} -j\;0.0243\frac{1}{Ω} && \\
-& \underline{Y}_{ges}(f=1kHz) = 0.25\frac{1}{Ω}-j\;0.0024\frac{1}{Ω} && \\
-& \underline{Y}_{ges}(f=20kHz) = 0.236\frac{1}{Ω}-j\;0.0225\frac{1}{Ω} && \\
+& \omega = 2\pi f &&\\
+\\
+& \underline{Z}_{ges}(ω) = \underline{Z}_1(ω) + \underline{Z}_2(ω) &&\\
+&\;\;\;\;\;\;\;\;\;\;\;\;\;= -j\frac{1}{ωC_1} + \frac{R_2}{1+ω^2(C_2R_2)^2} - j\frac{ωC_2R_2}{1+ω^2(C_2R_2)^2} &&\\
+\\
+& \underline{Z}_{ges}(f=1kHz) = 996.07 Ω -j \; 1.654 kΩ && \\
+& \underline{Z}_{ges}(f=10kHz) = 716.96 Ω -j \; 609.63 Ω && \\
+& \underline{Z}_{ges}(f=50kHz) = 92 Ω -j \; 320.86 Ω && \\
 \end{flalign}
 $$
 
